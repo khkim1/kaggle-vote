@@ -1,0 +1,41 @@
+** General comments
+
+1. Your section seems to be divided into 4 main chunks: 
+(i). Manual feature removal 
+(ii). Categorical feature preprocessing
+(iii). Numerical feature preprocessing
+(iv). Tree-based feature removal 
+It would be very nice to see the text also divided into these four sub section each with a section label. For example, in the model & techniques section I divided it into 4 sections each with subsection labels. 
+
+2. The figures should be placed close to the text that describes it’s contents. Organizing the text into sections would help with this. Moreover, in the text, the figures should be mentioned so that readers will understand why we’ve included those figures. Every figure should be talked about somewhere in the text. 
+
+
+** Here are some comments by section
+
+2. Categorical feature handling 
+- Using the term one-hot encoding to make more clear 
+
+3. Numerical feature handling 
+- Explain more on why replacing with mean value can be misleading predictors 
+- Would be nice to give a short name to the entropy-based filling method we used. “Entropy-based value compensation” would be one idea. Also emphasizing that this was our original idea would be nice. 
+- How much did mean-filling improve the overall performance? 
+
+4. Tree-based feature removal
+- Using the term “importance-score” would be more clear than “importances”. Shortly explain how a extra-trees classifier can calculate these “importances”
+- You should talk about figure 4 here. 
+
+5. Figure 2
+- Try to describe more about what the reader should be inferring from this graph. You could comment on how there are not that many features that carry high importance. 
+- It’s strange how the feature importance scores are monotonically decreasing here. Should explain this. (Maybe you sorted the features based on importance b4 graphing) 
+
+6. Figure 3
+- This figure can be combined with figure 2 into one figure. 
+
+7. Figure 4 
+- Should mention that the model trained here was not using the optimized parameters. Readers might be confused as to why the max accuracy is different from the max accuracy that appears on the following plots that I’ve included.  
+
+
+
+
+
+
