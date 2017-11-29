@@ -1,6 +1,8 @@
 # Kaggle Voting Prediction Challenge 
 Tensorflow/Keras implementation of ensemble models for Kaggle Challenge (Voting Prediction) 
 
+Report available [here](https://github.com/khkim1/kaggle-vote/blob/master/report/report.pdf)
+
 ## Requirements
 
 - Python 2.7 or Python 3.3+
